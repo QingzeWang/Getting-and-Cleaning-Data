@@ -1,0 +1,33 @@
+---
+title: "Codebook"
+author: "wang"
+date: "November 18, 2015"
+output: html_document
+---
+
+This code book is used to describes data created in tidy.txt. It contains a data frame with 180 observations of 88 variables. Each element is the mean of the correponding record for a subject and the activity of that suject.
+
+# Subject label
+The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. The label of suject is in range [1,30].
+
+# Activity label
+1 WALKING
+
+2 WALKING_UPSTAIRS
+
+3 WALKING_DOWNSTAIRS
+
+4 SITTING
+
+5 STANDING
+
+6 LAYING
+
+#Features/records
+```{r echo = FALSE}
+source("run_analysis.R")
+
+colnames(Data.melted.mean[,3:ncol(Data.melted.mean)])
+```
+
+
