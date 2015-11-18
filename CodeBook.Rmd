@@ -1,10 +1,4 @@
----
-title: "Codebook"
-author: "wang"
-date: "November 18, 2015"
-output: html_document
----
-
+#Description
 This code book is used to describes data created in tidy.txt. It contains a data frame with 180 observations of 88 variables. Each element is the mean of the correponding record for a subject and the activity of that suject.
 
 # Subject label
