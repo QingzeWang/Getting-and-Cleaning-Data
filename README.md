@@ -1,2 +1,4 @@
 # Getting-and-Cleaning-Data
-project
+This repo is for the project in Getting-and-Cleaning-Data course
+
+
